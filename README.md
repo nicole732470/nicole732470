@@ -1,69 +1,66 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=mrow+~+%F0%9F%90%B1;scroll+down+%E2%86%93&font=Fira+Code&size=18&duration=2000&pause=1200&color=F472B6&center=true&width=400" alt=""/>
+<img src="https://readme-typing-svg.demolab.com/?lines=hey+~+%F0%9F%91%8B;you+made+it+here+%E2%86%93&font=Fira+Code&size=24&duration=2200&pause=1000&color=F472B6&center=true&width=480" alt=""/>
 
-</div>
+<br/>
 
-```text
-================================================================================
-  ✧ ˚  *  n i c o l e   l i  *  ˚ ✧
+<pre style="font-size:16px;line-height:1.65;text-align:center;margin:0;">
+  ✧ ˚  n i c o l e   l i  ˚ ✧
+
        (\__/)
-       (•ㅅ•)  product-minded engineer · data × product · chicago 🌆
-      /  づ   northwestern · she/her · 💼 open to full-time roles
+       (•ㅅ•)  hi — data × product · chicago 🌆
+      /  づ   northwestern · open to work · i ship small tools ♡
+</pre>
 
-  ♡ i build small tools that feel obvious after you use them
-  🛠 chrome extensions · sql pipelines · full-stack apps end-to-end
-  📊 strengths: sql · prototyping · messy data → clear product decisions
-  ☕ currently job hunting · hybrid / remote friendly · let's connect ↓
-================================================================================
-```
+</div>
 
 <br/>
 
-**projects** — selected things i've built · data tools, extensions & product experiments
+<span style="background:linear-gradient(135deg,#fce7f3,#ede9fe);color:#7c3aed;padding:5px 14px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:0.08em;">PROJECTS</span>
 
-<table width="100%" border="0" cellspacing="16" cellpadding="0">
+<br/><br/>
+
+<table width="100%" border="0" cellspacing="14" cellpadding="0">
 <tr valign="top">
 <td width="50%">
 
-<p style="border-left:4px solid #7dd3fc;padding-left:12px;margin:0 0 8px 0;">
-<b>🔍 LCA LinkedIn Checker</b> · 🔒 private<br>
-<sub>linkedin hides h-1b sponsor history — overlays DOL filing stats, roles & wages on company pages.</sub>
-</p>
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-top:3px solid #22c55e;border-radius:12px;padding:16px;">
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<b style="font-size:16px;">🛒 <a href="https://github.com/nicole732470/smartshoppinglist">PriceTracker</a></b><br/>
+<span style="font-size:13px;color:#475569;">paste a link → track price drops over time.</span>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="6" style="margin-top:10px;">
 <tr valign="middle">
-<td width="42%"><img src="./assets/project-lca.png" height="128" alt="lca" style="border-radius:8px;"/></td>
-<td width="58%"><pre style="font-size:11px;margin:0;line-height:1.35;">
-DOL LCA (786k+)
-      │
-  SQLite + SQL
-      │
-employer index
-      │
-Chrome MV3 ext
+<td width="44%"><img src="./assets/project-shopping.png" height="140" alt="shopping" style="border-radius:8px;width:100%;max-width:180px;"/></td>
+<td width="56%"><pre style="font-size:12px;margin:0;line-height:1.4;background:#fff;border-radius:8px;padding:10px;border:1px solid #e2e8f0;">
+URL → fetch
+    → history
+    → dashboard
 </pre></td>
 </tr>
 </table>
 
+</div>
+
 </td>
 <td width="50%">
 
-<p style="border-left:4px solid #fdba74;padding-left:12px;margin:0 0 8px 0;">
-<b>🤖 <a href="https://github.com/nicole732470/AutoApply">AutoApply</a></b><br>
-<sub>applying at scale is copy-paste hell — scrapes listings, normalizes fields, tracks the workflow.</sub>
-</p>
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-top:3px solid #3b82f6;border-radius:12px;padding:16px;">
 
-<div align="right">
-<pre style="font-size:11px;margin:0;line-height:1.35;text-align:left;display:inline-block;">
-job listings
-      │
-   scraper
-      │
-  normalize
-      │
-workflow / track
-</pre>
+<b style="font-size:16px;">🔍 LCA LinkedIn Checker</b> <span style="font-size:12px;color:#64748b;">🔒 private</span><br/>
+<span style="font-size:13px;color:#475569;">h-1b sponsor signal overlaid on linkedin pages.</span>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="6" style="margin-top:10px;">
+<tr valign="middle">
+<td width="44%"><img src="./assets/project-lca.png" height="140" alt="lca" style="border-radius:8px;width:100%;max-width:180px;"/></td>
+<td width="56%"><pre style="font-size:12px;margin:0;line-height:1.4;background:#fff;border-radius:8px;padding:10px;border:1px solid #e2e8f0;">
+DOL LCA → SQLite
+    → index
+    → Chrome ext
+</pre></td>
+</tr>
+</table>
+
 </div>
 
 </td>
@@ -71,44 +68,33 @@ workflow / track
 <tr valign="top">
 <td width="50%">
 
-<p style="border-left:4px solid #86efac;padding-left:12px;margin:0 0 8px 0;">
-<b>🛒 <a href="https://github.com/nicole732470/smartshoppinglist">PriceTracker</a></b><br>
-<sub>paste a product link and watch prices over time — folders, alerts, and an AI nudge when you're stuck.</sub>
-</p>
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-top:3px solid #f97316;border-radius:12px;padding:16px;">
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr valign="middle">
-<td width="42%"><img src="./assets/project-shopping.png" height="128" alt="shopping" style="border-radius:8px;"/></td>
-<td width="58%"><pre style="font-size:11px;margin:0;line-height:1.35;">
-product URL
-      │
-price fetcher
-      │
-price history
-      │
-  dashboard
-</pre></td>
-</tr>
-</table>
+<b style="font-size:16px;">🤖 <a href="https://github.com/nicole732470/AutoApply">AutoApply</a></b><br/>
+<span style="font-size:13px;color:#475569;">scrape listings &amp; glue the boring apply workflow.</span>
+
+<pre style="font-size:12px;margin:12px 0 0 0;line-height:1.4;background:#fff;border-radius:8px;padding:10px;border:1px solid #e2e8f0;">
+listings → scraper
+    → normalize
+    → track
+</pre>
+
+</div>
 
 </td>
 <td width="50%">
 
-<p style="border-left:4px solid #e9a8f7;padding-left:12px;margin:0 0 8px 0;">
-<b>🍷 <a href="https://github.com/nicole732470/Voice-Wine-Explorer">Voice Wine Explorer</a></b><br>
-<sub>wine apps want twelve filters before dinner — talk mood, food, budget and get a ranked shortlist.</sub>
-</p>
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-top:3px solid #d946ef;border-radius:12px;padding:16px;">
 
-<div align="right">
-<pre style="font-size:11px;margin:0;line-height:1.35;text-align:left;display:inline-block;">
- voice / text
-      │
-  speech API
-      │
-ranking engine
-      │
-   shortlist UI
+<b style="font-size:16px;">🍷 <a href="https://github.com/nicole732470/Voice-Wine-Explorer">Voice Wine Explorer</a></b><br/>
+<span style="font-size:13px;color:#475569;">talk mood &amp; budget → get a wine shortlist.</span>
+
+<pre style="font-size:12px;margin:12px 0 0 0;line-height:1.4;background:#fff;border-radius:8px;padding:10px;border:1px solid #e2e8f0;">
+voice → speech API
+    → rank
+    → shortlist
 </pre>
+
 </div>
 
 </td>
@@ -117,7 +103,7 @@ ranking engine
 
 <br/>
 
-<div align="center">
+<div align="center" style="font-size:14px;">
 
 **open to opportunities** · chicago · [github.com/nicole732470](https://github.com/nicole732470)
 
