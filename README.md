@@ -3,34 +3,71 @@
 
                          · · ·  n i c o l e   l i  · · ·
                               (\(\
-                              ( ◕ ◕ )     data × product
-                              (  ω  )     chicago · northwestern
-                              (") (")     she/her
+                              ( ◕ ◕ )     product-minded engineer · data & tools
+                              (  ω  )     northwestern · chicago · she/her
+                              (") (")     open to full-time roles
                                  ∪
 
          ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-         i build small tools that feel obvious after you use them
-
-         💻 chrome extensions  ·  sql pipelines  ·  rails & js
-         🎯 product sense  ·  h-1b data  ·  side projects that ship
-         ☕ caffeinated  ·  job hunting
-
-         ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
-                                    🐰 hop · nice to meet you
+         🎓 northwestern · data × product · building software people actually use
+         💼 seeking full-time · product · data · eng-adjacent · chicago / hybrid / remote
+         🛠 shipped: chrome extensions · sql pipelines · rails & full-stack apps end-to-end
+         📊 strengths: sql · prototyping · user-facing tools · messy data → clear decisions
+         🔗 portfolio below · happy to connect about roles & projects
 
 ================================================================================================
 ```
 
-<br/>
-
-## 🐰 projects
-
-| | | |
-| :--- | :--- | :--- |
-| **🛒 [smart shopping list](https://github.com/nicole732470/smartshoppinglist)**<br><br>`javascript`<br><br>grocery list that learns what you actually rebuy | **🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**<br><br>`javascript`<br><br>talk to it, get a wine shortlist back | **🤖 [autoapply](https://github.com/nicole732470/AutoApply)**<br><br>`python`<br><br>scraping + workflow glue for job applications |
-| **📊 [analytics internship](https://github.com/nicole732470/analytics-internship)**<br><br>`python`<br><br>analysis notebooks & reporting samples | **📝 [todoapp](https://github.com/nicole732470/todoapp)**<br><br>`ruby`<br><br>software studio rails app with real tests | **🔍 lca linkedin checker**<br><br>`python` · `sqlite` · `chrome`<br><br>h-1b sponsor lookup on linkedin<br>🔒 private repo — ask for demo |
+<img src="./assets/bunny-hop.gif" width="100%" alt=""/>
 
 <br/>
 
-*thanks for visiting — the bunny says hi* 🐇
+## selected work
+
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr valign="top">
+<td width="33%">
+
+**🛒 [smart shopping list](https://github.com/nicole732470/smartshoppinglist)**  
+grocery list that learns rebuy patterns
+
+</td>
+<td width="33%">
+
+**🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**  
+voice-driven wine shortlist from natural language
+
+</td>
+<td width="33%">
+
+**🤖 [autoapply](https://github.com/nicole732470/AutoApply)**  
+job application scraping & workflow automation
+
+</td>
+</tr>
+<tr valign="top">
+<td width="33%">
+
+**📊 [analytics internship](https://github.com/nicole732470/analytics-internship)**  
+analysis notebooks & reporting samples
+
+</td>
+<td width="33%">
+
+**📝 [todoapp](https://github.com/nicole732470/todoapp)**  
+software-studio rails app with tests & deployment
+
+</td>
+<td width="33%">
+
+**🔍 lca linkedin checker**  
+h-1b sponsor lookup on linkedin · 🔒 private — ask for demo
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+**open to opportunities** · chicago · [github.com/nicole732470](https://github.com/nicole732470)
