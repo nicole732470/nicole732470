@@ -1,26 +1,69 @@
-<img src="./assets/header.svg" alt="Nicole Li" width="100%"/>
+```text
+  ╭────────────────────────────────────────────────╮
+  │                                                │
+  │   ✧ ˚  *  nicole li  *  ˚ ✧                    │
+  │      northwestern · chicago · she/her          │
+  │                                                │
+  │           (\__/)                               │
+  │           (•ㅅ•)  hi ~ i make small tools        │
+  │          /  づ  that quietly do useful things  │
+  │                                                │
+  │   ♡ data · product · chrome extensions         │
+  │   ☕ currently: job apps, side projects, sleep │
+  │                                                │
+  ╰────────────────────────────────────────────────╯
+```
 
 <br/>
 
-## selected work
+## projects
 
-**[smart shopping list](https://github.com/nicole732470/smartshoppinglist)** · javascript  
-a grocery list that learns what you actually rebuy
+```text
+┌─ 🛒  smart shopping list ─────────────────────────────┐
+│  javascript                                           │
+│  grocery list that learns what you actually rebuy     │
+└───────────────────────────────────────────────────────┘
+```
+**[view repo →](https://github.com/nicole732470/smartshoppinglist)**
 
-**[voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)** · javascript  
-describe what you want out loud, get a shortlist back
+```text
+┌─ 🍷  voice wine explorer ──────────────────────────────┐
+│  javascript                                           │
+│  talk to it, get a wine shortlist back                │
+└───────────────────────────────────────────────────────┘
+```
+**[view repo →](https://github.com/nicole732470/Voice-Wine-Explorer)**
 
-**[autoapply](https://github.com/nicole732470/AutoApply)** · python  
-scraping + workflow glue for job applications
+```text
+┌─ 🤖  autoapply ────────────────────────────────────────┐
+│  python                                               │
+│  scraping + workflow glue for job applications        │
+└───────────────────────────────────────────────────────┘
+```
+**[view repo →](https://github.com/nicole732470/AutoApply)**
 
-**[analytics internship](https://github.com/nicole732470/analytics-internship)** · python  
-analysis notebooks and reporting samples
+```text
+┌─ 📊  analytics internship ───────────────────────────────┐
+│  python                                               │
+│  analysis notebooks + reporting samples               │
+└───────────────────────────────────────────────────────┘
+```
+**[view repo →](https://github.com/nicole732470/analytics-internship)**
 
-**[todoapp](https://github.com/nicole732470/todoapp)** · ruby  
-software studio — rails app with real tests
+```text
+┌─ 📝  todoapp ──────────────────────────────────────────┐
+│  ruby · software studio                               │
+│  rails app with real tests                            │
+└───────────────────────────────────────────────────────┘
+```
+**[view repo →](https://github.com/nicole732470/todoapp)**
 
-**lca linkedin checker** · python · sqlite · chrome extension  
-h-1b sponsor lookup on linkedin · private repo
+```text
+┌─ 🔍  lca linkedin checker ─────────────────────────────┐
+│  python · sqlite · chrome extension                   │
+│  h-1b sponsor lookup on linkedin · 🔒 private         │
+└───────────────────────────────────────────────────────┘
+```
 
 <br/>
 
@@ -29,92 +72,225 @@ h-1b sponsor lookup on linkedin · private repo
 <br/>
 
 <details>
-<summary><b>🕹️ play here — friday night deploy</b> <sub><sup>(expand to start, no leaving this page)</sup></sub></summary>
+<summary><b>🎮 hyde park quest</b> · click to start <sub>(plays on this page)</sub></summary>
 
 <br/>
 
 ```text
- 11:47 PM · CI green · prod is watching
+  ♡ ♡ ♡  WELCOME TO HYDE PARK QUEST  ♡ ♡ ♡
+
+  HP  ████████░░   (coffee remaining)
+  SAN ██████░░░░   (sleep remaining)
+  LUCK rolling...
+
+  inventory: [laptop] [deadline] [rubber duck]
 ```
 
 <br/>
 
-**pick your opening move:**
+```text
+              .---.
+         .---.   ☁️   .---.
+            \   |   /
+    🏛 library ——🌳—— ☕ cafe
+              \   |   /
+         .---.   🚌   .---.
+              '---'
+
+  where do you go first?
+```
 
 <br/>
 
 <details>
-<summary><b>merge anyway</b></summary>
+<summary>☕ <b>cafe</b> — refill HP</summary>
 
 <br/>
 
-The deploy turns green. You exhale. Then Slack lights up.
+```text
+  HP  ██████████   (+2 coffee)
+  barista: "the usual?"
+```
 
 <br/>
 
 <details>
-<summary>open the error log</summary>
+<summary>☕ "double shot, no questions"</summary>
 
 <br/>
 
-Off-by-one in a date parser. You patch it in eleven minutes.  
-**ending: legend status unlocked** — the team sends a gif.
+```text
+  you black out for 4 hours but fix three bugs in your head.
+  SAN ████░░░░░░   (-2 sleep)
+
+  a classmate whispers: "career fair is tomorrow"
+```
+
+<br/>
+
+<details>
+<summary>🏃 sprint to career fair prep</summary>
+
+<br/>
+
+```text
+  ENDING: ✨ network gremlin ✨
+  you collect 12 linkedins and 0 answers to "tell me about yourself"
+  achievement unlocked: professional eye contact
+```
 
 </details>
 
 <details>
-<summary>mute slack and go to bed</summary>
+<summary>🛌 go home and actually sleep</summary>
 
 <br/>
 
-At 3:14 AM your phone vibrates itself off the nightstand.  
-**ending: brave, but incorrect** — monday you buy everyone coffee.
-
-</details>
-
-</details>
-
-<details>
-<summary><b>leave it for monday</b></summary>
-
-<br/>
-
-You close the laptop. The apartment gets quiet.  
-**ending: peaceful** — future you writes a thank-you note in the PR.
-
-</details>
-
-<details>
-<summary><b>rewrite the whole PR "to make it cleaner"</b></summary>
-
-<br/>
-
-It is now 2:30 AM. Tests are red. You are emotionally attached to the refactor.
-
-<br/>
-
-<details>
-<summary>revert and merge the original</summary>
-
-<br/>
-
-**ending: wisdom arrives late** — but it arrives.
-
-</details>
-
-<details>
-<summary>keep pushing until green</summary>
-
-<br/>
-
-**ending: sunrise commit** — 47 files changed. you win? unclear.
+```text
+  ENDING: 🌙 wise rabbit 🌙
+  you wake up with one good idea and zero regrets
+  (+100 sanity, main character energy)
+```
 
 </details>
 
 </details>
 
+<details>
+<summary>🥐 "just a pastry, i'm fine"</summary>
+
 <br/>
 
-<sub>replay anytime · made with markdown only · github won't let me run real javascript here</sub>
+```text
+  ENDING: 🍞 stable genius 🍇
+  nothing dramatic happens. sometimes that's the win.
+```
+
+</details>
+
+</details>
+
+<details>
+<summary>🏛 <b>library</b> — grind mode</summary>
+
+<br/>
+
+```text
+  you open your laptop. 47 tabs already waiting.
+
+  pick a quest:
+```
+
+<br/>
+
+<details>
+<summary>📦 ship the shopping list feature</summary>
+
+<br/>
+
+```text
+  tests pass. css slightly off. you ship anyway.
+
+  ENDING: 🚀 builder arc 🚀
+  "done is a flavor of good"
+```
+
+</details>
+
+<details>
+<summary>🔎 debug the h-1b chrome extension</summary>
+
+<br/>
+
+```text
+  false positive: linkedin slug "world-coppersmith" matched the wrong company.
+  you add whole-word matching at 1am.
+
+  ENDING: 🐛 detective rabbit 🐛
+  future you on linkedin: "thanks omg it works"
+```
+
+</details>
+
+<details>
+<summary>📄 rewrite resume for the 9th time</summary>
+
+<br/>
+
+```text
+  version_9_final_FINAL.pdf
+  version_9_final_FINAL2.pdf
+  version_9_ok_actually_this_one.pdf
+
+  ENDING: 📎 pdf hydra 📎
+  the filenames are the real boss fight
+```
+
+</details>
+
+</details>
+
+<details>
+<summary>🌳 <b>midway</b> — touch grass</summary>
+
+<br/>
+
+```text
+  geese. so many geese. they judge your commit history.
+
+  HP  ████████░░
+  LUCK ██████████   (temporarily)
+```
+
+<br/>
+
+<details>
+<summary>🍞 feed the geese bread (don't)</summary>
+
+<br/>
+
+```text
+  ENDING: ⚠️ wanted by campus security ⚠️
+  worth it? debatable. 10/10 story though.
+```
+
+</details>
+
+<details>
+<summary>📸 take one (1) aesthetic lake photo</summary>
+
+<br/>
+
+```text
+  ENDING: 🌅 main character stroll 🌅
+  you post it. three people like it. one is your mom.
+  somehow you feel better.
+```
+
+</details>
+
+<details>
+<summary>🏠 walk home via the long route</summary>
+
+<br/>
+
+```text
+  ENDING: 🎧 deep thought walk 🎧
+  you solve a product idea you'll forget by dinner
+  (write it down next time)
+```
+
+</details>
+
+</details>
+
+<br/>
+
+```text
+  ┌ replay anytime ─ reset by collapsing this box ─┐
+  │  * github blocks real games here, so this is   │
+  │    markdown theater — hope it made you smile *  │
+  └────────────────────────────────────────────────┘
+```
 
 </details>
