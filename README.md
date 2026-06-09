@@ -19,50 +19,42 @@
 ================================================================================================
 ```
 
-<img src="./assets/bunny-hop.gif" width="100%" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake.svg" width="100%" alt="contribution snake animation">
+</picture>
 
 <br/>
 
 ## selected work
 
-<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<table width="100%" border="0" cellspacing="0" cellpadding="14">
 <tr valign="top">
-<td width="33%">
+<td width="50%">
 
-**🛒 [smart shopping list](https://github.com/nicole732470/smartshoppinglist)**  
-grocery list that learns rebuy patterns
-
-</td>
-<td width="33%">
-
-**🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**  
-voice-driven wine shortlist from natural language
+**🔍 lca linkedin checker** · 🔒 private — ask for demo  
+chrome extension that flags h-1b / lca sponsor history on linkedin job posts. built a dol disclosure pipeline (800k+ filings → sqlite), employer name matching, and in-page overlays so you can see sponsorship signal without leaving the listing.
 
 </td>
-<td width="33%">
+<td width="50%">
 
 **🤖 [autoapply](https://github.com/nicole732470/AutoApply)**  
-job application scraping & workflow automation
+job-hunt workflow automation: scrape listings, normalize company/role fields, and glue together the repetitive steps between finding a job and actually applying. born from applying at scale and wanting fewer tabs open.
 
 </td>
 </tr>
 <tr valign="top">
-<td width="33%">
+<td width="50%">
 
-**📊 [analytics internship](https://github.com/nicole732470/analytics-internship)**  
-analysis notebooks & reporting samples
-
-</td>
-<td width="33%">
-
-**📝 [todoapp](https://github.com/nicole732470/todoapp)**  
-software-studio rails app with tests & deployment
+**🛒 [smart shopping list](https://github.com/nicole732470/smartshoppinglist)**  
+grocery list that learns what you rebuy and surfaces it before you forget. focused on small UX wins — fewer taps, smarter defaults, the kind of tool that feels obvious once you use it.
 
 </td>
-<td width="33%">
+<td width="50%">
 
-**🔍 lca linkedin checker**  
-h-1b sponsor lookup on linkedin · 🔒 private — ask for demo
+**🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**  
+talk about mood, food, or budget and get a ranked wine shortlist back. voice-first ui experiment: less form-filling, more conversational product flow.
 
 </td>
 </tr>
