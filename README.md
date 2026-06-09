@@ -36,10 +36,32 @@
 │  category · chrome extension · DOL data pipeline              │
 │  pain     · linkedin hides h-1b / lca sponsor history         │
 │  stack    · python · sqlite · chrome mv3                      │
-│  built    · 800k+ filings → sqlite → in-page sponsor overlay  │
+│  built    · sponsor badge on linkedin — LCA count, roles, wage│
 └───────────────────────────────────────────────────────────────┘
 ```
+
+<img src="./assets/project-lca.png" width="100%" alt="LCA sponsor badge on LinkedIn company page"/>
+
+```text
+  DOL LCA filings (786k+ H-1B)
+           │
+           ▼
+  ┌─────────────────┐
+  │ SQLite + SQL    │  aggregate by FEIN · top roles · wages
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ employer index  │  slug match · overrides · fuzzy fallback
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ Chrome MV3 ext  │  overlay badge on linkedin company/job pages
+  └─────────────────┘
+```
+
 🔒 private repo — ask for demo
+
+<br/>
 
 ```text
 ┌─ 🤖  autoapply ────────────────────────────────────────────────┐
@@ -49,17 +71,59 @@
 │  built    · scrape listings, normalize fields, glue the steps │
 └───────────────────────────────────────────────────────────────┘
 ```
-**[view repo →](https://github.com/nicole732470/AutoApply)**
 
 ```text
-┌─ 🛒  smart shopping list ──────────────────────────────────────┐
-│  category · consumer product · habit learning                 │
-│  pain     · grocery lists reset — you rebuy from memory       │
-│  stack    · javascript · react · local storage                  │
-│  built    · learns rebuy patterns, surfaces staples early     │
+  job boards / listing URLs
+           │
+           ▼
+  ┌─────────────────┐
+  │ scraper         │  pull title · company · link · metadata
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ normalize       │  dedupe · clean fields · tag status
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ workflow layer  │  track apps · batch steps · export
+  └─────────────────┘
+```
+
+**[view repo →](https://github.com/nicole732470/AutoApply)**
+
+<br/>
+
+```text
+┌─ 🛒  pricetracker (smart shopping list) ───────────────────────┐
+│  category · consumer product · price tracking                   │
+│  pain     · hard to know when a product actually dropped        │
+│  stack    · javascript · full-stack web app                     │
+│  built    · paste a link → track price · folders · AI assist    │
 └───────────────────────────────────────────────────────────────┘
 ```
+
+<img src="./assets/project-shopping.png" width="100%" alt="PriceTracker product dashboard"/>
+
+```text
+  product URL paste
+           │
+           ▼
+  ┌─────────────────┐
+  │ price fetcher   │  supported retailer adapters
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ store + history │  snapshots · alerts · folders
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ dashboard UI    │  watchlist · filters · ask AI
+  └─────────────────┘
+```
+
 **[view repo →](https://github.com/nicole732470/smartshoppinglist)**
+
+<br/>
 
 ```text
 ┌─ 🍷  voice wine explorer ──────────────────────────────────────┐
@@ -69,6 +133,24 @@
 │  built    · talk mood / food / budget → ranked shortlist      │
 └───────────────────────────────────────────────────────────────┘
 ```
+
+```text
+  voice / text input
+           │
+           ▼
+  ┌─────────────────┐
+  │ speech API      │  transcribe intent · constraints
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ ranking engine  │  mood · food pairing · budget filters
+  └────────┬────────┘
+           ▼
+  ┌─────────────────┐
+  │ shortlist UI    │  ranked cards · quick compare
+  └─────────────────┘
+```
+
 **[view repo →](https://github.com/nicole732470/Voice-Wine-Explorer)**
 
 <br/>
