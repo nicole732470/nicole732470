@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=hey+~+%F0%9F%91%8B;scroll+down&font=Fira+Code&size=22&duration=2200&pause=1200&color=57606a&center=true&width=360" alt=""/>
+<img src="https://readme-typing-svg.demolab.com/?lines=oh+hey+~+%F0%9F%91%8B;projects+below+%E2%86%93&font=Fira+Code&size=23&duration=2400&pause=1000&color=218BFF&center=true&width=400" alt=""/>
 
 <br/>
 
@@ -8,8 +8,10 @@
   ✧ ˚  n i c o l e   l i  ˚ ✧
 
        (\__/)
-       (•ㅅ•)  hi — engineering × product · chicago 🌆
-            Northwestern · Tencent · I ship small tools ♡
+       (•ㅅ•)  engineering × product · tools that feel obvious after you use them
+      /  づ   chicago 🌆 · northwestern · tencent · open to work
+
+  ♡ chrome extensions · sql · side projects that ship
 </pre>
 
 </div>
