@@ -1,18 +1,41 @@
-```text
-$ whoami
-  nicole li · she/her · chicago
+<h3 align="left">🐱 nicole li · <code>data × product</code> · chicago</h3>
 
-$ cat about.txt
-  northwestern · data × product
-  i build small tools that feel obvious after you use them
-  shipping: chrome extensions · sql pipelines · rails & js
-  into: product sense · h-1b data · side projects that ship
-  status: caffeinated · job hunting
+<table width="100%">
+<tr>
+<td>
 
-$ ./cat_supervisor.sh
-  🐱 mrow ~ please stop pushing to main at 1am
-  → exit 1 (ignored)
-```
+<table>
+<tr>
+<td style="background-color:#fff8f3; border:2px solid #f4a261; border-radius:16px; padding:18px 22px;">
+
+<pre style="font-size:14px; line-height:1.55; margin:0;">
+<span style="color:#e76f51;">$</span> whoami
+  <b>nicole li</b> · she/her · 🌆 chicago · 🎓 northwestern
+
+<span style="color:#e76f51;">$</span> cat about.txt
+  💻 data × product · i build small tools that feel obvious after you use them
+  🚀 shipping: chrome extensions · sql pipelines · rails &amp; js
+  🎯 into: product sense · h-1b data · side projects that ship
+  ☕ status: caffeinated · job hunting · probably refactoring something
+
+<span style="color:#e76f51;">$</span> ./cat_supervisor.sh
+  🐱 mrow ~ stop pushing to main at 1am
+  <span style="color:#e76f51;">→</span> exit 1 <span style="color:#8b7355;">(ignored)</span>  🐾🐾🐾
+</pre>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/cat-walk.gif" width="520" alt="orange cat walking across the screen"/>
+</p>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -25,4 +48,8 @@ $ ./cat_supervisor.sh
 
 <br/>
 
-*thanks for visiting — you may pet the cat mentally* 🐾
+<div align="center">
+
+🐈‍⬛ *thanks for visiting — you may pet the cat mentally* 🐾
+
+</div>
