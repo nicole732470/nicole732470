@@ -1,31 +1,30 @@
 ```text
 ================================================================================================
 
-              /\_/\                          nicole li
-             ( ^.^ )                         data × product · chicago
-            /|  ω  |\                        ─────────────────────────────────────────
-           (_|     |_)                        $ whoami
-                                                nicole li · she/her · 🌆 chicago · 🎓 northwestern
+                         · · ·  n i c o l e   l i  · · ·
+                              (\(\
+                              ( ◕ ◕ )     data × product
+                              (  ω  )     chicago · northwestern
+                              (") (")     she/her
+                                 ∪
 
-              /\_/\                          $ cat about.txt
-             ( o.o )                            💻 i build small tools that feel obvious after you use them
-            /|  w  |\                           🚀 shipping: chrome extensions · sql pipelines · rails & js
-           (_|     |_)                           🎯 into: product sense · h-1b data · side projects that ship
-              | |                               ☕ status: caffeinated · job hunting
+         ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-             /   \                           $ ./cat_supervisor.sh
-            |     |                              🐱 mrow ~ stop pushing to main at 1am
-           /|     |\                             → exit 1 (ignored)  🐾🐾🐾
-          (_|     |_)
-             | |
-            /   \
+         i build small tools that feel obvious after you use them
+
+         💻 chrome extensions  ·  sql pipelines  ·  rails & js
+         🎯 product sense  ·  h-1b data  ·  side projects that ship
+         ☕ caffeinated  ·  job hunting
+
+         ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+                                    🐰 hop · nice to meet you
 
 ================================================================================================
 ```
 
 <br/>
 
-## 🐾 projects
+## 🐰 projects
 
 | | | |
 | :--- | :--- | :--- |
@@ -34,4 +33,4 @@
 
 <br/>
 
-*thanks for visiting — you may pet the cat mentally* 🐈‍⬛
+*thanks for visiting — the bunny says hi* 🐇
