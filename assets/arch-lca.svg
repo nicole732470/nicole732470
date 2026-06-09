@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="88" viewBox="0 0 400 88">
+  <rect x="4" y="24" width="76" height="40" rx="8" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="42" y="48" text-anchor="middle" font-size="9" fill="#1d4ed8" font-family="system-ui,sans-serif">DOL LCA</text>
+  <path d="M80 44 H100" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="100" y="24" width="72" height="40" rx="8" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="136" y="48" text-anchor="middle" font-size="9" fill="#1d4ed8" font-family="system-ui,sans-serif">SQLite</text>
+  <path d="M172 44 H192" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="192" y="24" width="72" height="40" rx="8" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="228" y="48" text-anchor="middle" font-size="9" fill="#1d4ed8" font-family="system-ui,sans-serif">index</text>
+  <path d="M264 44 H284" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="284" y="24" width="112" height="40" rx="8" fill="#3b82f6" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="340" y="48" text-anchor="middle" font-size="9" fill="#fff" font-family="system-ui,sans-serif">Chrome ext</text>
+</svg>
