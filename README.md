@@ -1,188 +1,88 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?lines=mrow+~+i'm+nicole+%F0%9F%90%B1;data+%C3%97+product+%C2%B7+tools+that+actually+ship;open+to+work+%C2%B7+chicago+%F0%9F%8C%86&font=Fira+Code&weight=500&size=22&duration=2800&pause=800&color=E85D9B&center=true&width=620" alt=""/>
+
+</div>
+
 ```text
-================================================================================
-  ✧ ˚  *  n i c o l e   l i  *  ˚ ✧
-      northwestern · chicago · she/her
-
-           (\__/)
-           (•ㅅ•)  product-minded engineer · data & tools
-          /  づ  i build things that feel obvious after you use them
-
-  ♡ chrome extensions · sql pipelines · full-stack apps
-  💼 seeking full-time · product · data · eng-adjacent roles
-================================================================================
+        (\__/)     n i c o l e   l i  ·  northwestern  ·  she/her
+        (•ㅅ•)     product-minded engineer  ·  data & tools  ·  💼 hiring
+       /  づ  mrow ~
 ```
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=nicole732470&show_icons=true&theme=default&include_all_commits=true&hide_border=true" alt="stats"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicole732470&layout=compact&theme=default&hide_border=true&langs_count=6" alt="langs"/>
+<img height="130" src="https://github-readme-stats.vercel.app/api?username=nicole732470&show_icons=true&theme=default&hide_border=true" alt="stats"/>
 
 </div>
-
-<br/>
 
 ### selected work
 
-```text
-┌─ 🔍  lca linkedin checker ─────────────────────── 🔒 private ─┐
-│  category · chrome extension · DOL data pipeline              │
-│  pain     · linkedin hides h-1b / lca sponsor history         │
-│  stack    · python · sqlite · chrome mv3                      │
-│  built    · sponsor badge on linkedin — LCA count, roles, wage│
-└───────────────────────────────────────────────────────────────┘
-```
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<tr valign="top">
+<td width="50%">
 
-<table width="100%" border="0" cellspacing="0" cellpadding="8">
+![LCA](https://img.shields.io/badge/🔍_LCA_LinkedIn_Checker-58a6ff?style=flat-square&labelColor=1e293b) ![private](https://img.shields.io/badge/🔒_private-94a3b8?style=flat-square&labelColor=1e293b)
+
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
 <tr valign="middle">
-<td width="40%" align="center">
-<img src="./assets/project-lca.png" height="200" alt="LCA sponsor badge on LinkedIn"/>
-</td>
-<td width="60%">
+<td width="45%"><img src="./assets/project-lca.png" height="130" alt="lca"/></td>
+<td width="55%"><pre style="font-size:11px;margin:0;">
+DOL LCA → SQLite
+    → index
+    → Chrome ext
+</pre></td>
+</tr>
+</table>
 
-<pre>
-DOL LCA filings (786k+ H-1B)
-         │
-         ▼
-┌─────────────────┐
-│ SQLite + SQL    │
-└────────┬────────┘
-         ▼
-┌─────────────────┐
-│ employer index  │
-└────────┬────────┘
-         ▼
-┌─────────────────┐
-│ Chrome MV3 ext  │
-└─────────────────┘
+</td>
+<td width="50%">
+
+[![AutoApply](https://img.shields.io/badge/🤖_AutoApply-f97316?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/AutoApply)
+
+<pre style="font-size:11px;margin:4px 0 0 0;">
+job listings
+     │
+scraper → normalize
+     │
+workflow / track
+</pre>
+
+</td>
+</tr>
+<tr valign="top">
+<td width="50%">
+
+[![PriceTracker](https://img.shields.io/badge/🛒_PriceTracker-22c55e?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/smartshoppinglist)
+
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr valign="middle">
+<td width="45%"><img src="./assets/project-shopping.png" height="130" alt="shopping"/></td>
+<td width="55%"><pre style="font-size:11px;margin:0;">
+URL paste
+    → fetch price
+    → history
+    → dashboard
+</pre></td>
+</tr>
+</table>
+
+</td>
+<td width="50%">
+
+[![Voice Wine](https://img.shields.io/badge/🍷_Voice_Wine_Explorer-d946ef?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/Voice-Wine-Explorer)
+
+<pre style="font-size:11px;margin:4px 0 0 0;">
+voice in
+     │
+speech API
+     │
+rank → shortlist
 </pre>
 
 </td>
 </tr>
 </table>
-
-🔒 private repo — ask for demo
-
-<br/>
-
-```text
-┌─ 🤖  autoapply ────────────────────────────────────────────────┐
-│  category · job hunt automation                               │
-│  pain     · applying at scale = copy-paste loops, lost tabs   │
-│  stack    · python · scraping · workflow scripting            │
-│  built    · scrape listings, normalize fields, glue the steps │
-└───────────────────────────────────────────────────────────────┘
-```
-
-```text
-  job boards / listing URLs
-           │
-           ▼
-  ┌─────────────────┐
-  │ scraper         │  pull title · company · link · metadata
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ normalize       │  dedupe · clean fields · tag status
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ workflow layer  │  track apps · batch steps · export
-  └─────────────────┘
-```
-
-**[view repo →](https://github.com/nicole732470/AutoApply)**
-
-<br/>
-
-```text
-┌─ 🛒  pricetracker (smart shopping list) ───────────────────────┐
-│  category · consumer product · price tracking                   │
-│  pain     · hard to know when a product actually dropped        │
-│  stack    · javascript · full-stack web app                     │
-│  built    · paste a link → track price · folders · AI assist    │
-└───────────────────────────────────────────────────────────────┘
-```
-
-<table width="100%" border="0" cellspacing="0" cellpadding="8">
-<tr valign="middle">
-<td width="40%" align="center">
-<img src="./assets/project-shopping.png" height="200" alt="PriceTracker dashboard"/>
-</td>
-<td width="60%">
-
-<pre>
-product URL paste
-         │
-         ▼
-┌─────────────────┐
-│ price fetcher   │
-└────────┬────────┘
-         ▼
-┌─────────────────┐
-│ store + history │
-└────────┬────────┘
-         ▼
-┌─────────────────┐
-│ dashboard UI    │
-└─────────────────┘
-</pre>
-
-</td>
-</tr>
-</table>
-
-**[view repo →](https://github.com/nicole732470/smartshoppinglist)**
-
-<br/>
-
-```text
-┌─ 🍷  voice wine explorer ──────────────────────────────────────┐
-│  category · voice ui · conversational product                 │
-│  pain     · wine apps are filter hell before dinner           │
-│  stack    · javascript · speech api · ranking logic           │
-│  built    · talk mood / food / budget → ranked shortlist      │
-└───────────────────────────────────────────────────────────────┘
-```
-
-```text
-  voice / text input
-           │
-           ▼
-  ┌─────────────────┐
-  │ speech API      │  transcribe intent · constraints
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ ranking engine  │  mood · food pairing · budget filters
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ shortlist UI    │  ranked cards · quick compare
-  └─────────────────┘
-```
-
-**[view repo →](https://github.com/nicole732470/Voice-Wine-Explorer)**
-
-<br/>
-
-### stack
-
-```text
-languages   python · javascript · ruby · sql
-data        sqlite · ETL pipelines · DOL disclosure analytics
-product     chrome extensions · full-stack prototypes · UX-first tools
-```
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Chrome](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
-
-</div>
-
-<br/>
 
 <div align="center">
 
