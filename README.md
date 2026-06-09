@@ -1,31 +1,31 @@
-<table>
+<table width="100%">
 <tr>
-<td width="42%" valign="top">
+<td width="36%" valign="top">
 
 ```text
-╭──────────────────────────────────────╮
-│  🌸✨ nicole li ✨🐰                  │
-│  ──────────────────────────────────  │
-│  🎓 northwestern  ·  🌆 chicago      │
-│  💻 data × product × side projects   │
-│                                      │
-│       (\__/)                         │
-│       (◕ᴗ◕)っ  hi hi ~               │
-│      /  づ ♡                         │
-│                                      │
-│  ☕ fueled by coffee & deadlines     │
-│  🧩 building things that feel        │
-│     obvious after you use them       │
-│  🎯 rn: job hunt · chrome ext · apps │
-╰──────────────────────────────────────╯
+╭────────────────────────────────────────╮
+│  🐱✨ nicole li ✨🐈‍⬛                    │
+│  ────────────────────────────────────  │
+│  🎓 northwestern  ·  🌆 chicago        │
+│  💻 data × product × tiny side quests  │
+│                                        │
+│         /\_/\_/                         │
+│        (  ◕.◕)  mrow ~                  │
+│        (  =^.^=)                        │
+│         /|   |\                         │
+│        🐾 🐾                            │
+│                                        │
+│  😺 part-time cat · full-time builder  │
+│  ☕ cat fuel: coffee & looming due dates│
+│  🐟 currently herding: apps · ext · job│
+│  🧶 builds stuff that purrs smoothly   │
+╰────────────────────────────────────────╯
 ```
 
 </td>
-<td width="58%" align="center" valign="middle">
+<td width="64%" valign="middle">
 
-<img src="./assets/snack-snake.gif" alt="cute snack snake animation" width="100%"/>
-
-<sub>🍡 snack snake — not my github graph, just a lil guy</sub>
+<img src="./assets/office-cat.gif" alt="office cat chasing laser pointer" width="100%"/>
 
 </td>
 </tr>
@@ -33,40 +33,47 @@
 
 <br/>
 
-## ✦ projects
+## 🐾 projects
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🛒 [smart shopping list](https://github.com/nicole732470/smartshoppinglist)**  
-`javascript` · grocery list that learns what you rebuy
-
-<br/>
-
-**🤖 [autoapply](https://github.com/nicole732470/AutoApply)**  
-`python` · scraping + workflow for job applications
-
-<br/>
-
-**📝 [todoapp](https://github.com/nicole732470/todoapp)**  
-`ruby` · software studio rails app
-
-</td>
-<td width="50%" valign="top">
-
-**🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**  
-`javascript` · talk to it, get a wine shortlist
+`javascript`  
+grocery list that learns what you rebuy
 
 <br/>
 
 **📊 [analytics internship](https://github.com/nicole732470/analytics-internship)**  
-`python` · analysis notebooks & samples
+`python`  
+analysis notebooks & samples
+
+</td>
+<td width="33%" valign="top">
+
+**🍷 [voice wine explorer](https://github.com/nicole732470/Voice-Wine-Explorer)**  
+`javascript`  
+talk to it, get a wine shortlist
 
 <br/>
 
-**🔍 lca linkedin checker** · `python` `sqlite` `chrome`  
-h-1b sponsor lookup on linkedin · 🔒 private
+**📝 [todoapp](https://github.com/nicole732470/todoapp)**  
+`ruby`  
+software studio rails app
+
+</td>
+<td width="33%" valign="top">
+
+**🤖 [autoapply](https://github.com/nicole732470/AutoApply)**  
+`python`  
+scraping + workflow for job apps
+
+<br/>
+
+**🔍 lca linkedin checker**  
+`python` · `sqlite` · `chrome`  
+h-1b sponsor lookup · 🔒 private
 
 </td>
 </tr>
@@ -76,6 +83,6 @@ h-1b sponsor lookup on linkedin · 🔒 private
 
 <div align="center">
 
-✧･ﾟ: *✧･ﾟ:* thanks for stopping by *:･ﾟ✧*:･ﾟ✧
+🐈‍⬛ *thanks for visiting · feel free to pet the cat (mentally)* 🐾
 
 </div>
