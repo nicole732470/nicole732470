@@ -1,36 +1,49 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=mrow+~+i'm+nicole+%F0%9F%90%B1;data+%C3%97+product+%C2%B7+tools+that+actually+ship;open+to+work+%C2%B7+chicago+%F0%9F%8C%86&font=Fira+Code&weight=500&size=22&duration=2800&pause=800&color=E85D9B&center=true&width=620" alt=""/>
+<img src="https://readme-typing-svg.demolab.com/?lines=mrow+~+%F0%9F%90%B1;scroll+down+%E2%86%93&font=Fira+Code&size=18&duration=2000&pause=1200&color=F472B6&center=true&width=400" alt=""/>
 
 </div>
 
 ```text
-        (\__/)     n i c o l e   l i  ·  northwestern  ·  she/her
-        (•ㅅ•)     product-minded engineer  ·  data & tools  ·  💼 hiring
-       /  づ  mrow ~
+================================================================================
+  ✧ ˚  *  n i c o l e   l i  *  ˚ ✧
+       (\__/)
+       (•ㅅ•)  product-minded engineer · data × product · chicago 🌆
+      /  づ   northwestern · she/her · 💼 open to full-time roles
+
+  ♡ i build small tools that feel obvious after you use them
+  🛠 chrome extensions · sql pipelines · full-stack apps end-to-end
+  📊 strengths: sql · prototyping · messy data → clear product decisions
+  ☕ currently job hunting · hybrid / remote friendly · let's connect ↓
+================================================================================
 ```
 
-<div align="center">
+<br/>
 
-<img height="130" src="https://github-readme-stats.vercel.app/api?username=nicole732470&show_icons=true&theme=default&hide_border=true" alt="stats"/>
+```text
+  · · ·  w o r k  · · ·
+```
 
-</div>
-
-### selected work
-
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<table width="100%" border="0" cellspacing="16" cellpadding="0">
 <tr valign="top">
 <td width="50%">
 
-![LCA](https://img.shields.io/badge/🔍_LCA_LinkedIn_Checker-58a6ff?style=flat-square&labelColor=1e293b) ![private](https://img.shields.io/badge/🔒_private-94a3b8?style=flat-square&labelColor=1e293b)
+<p style="border-left:4px solid #7dd3fc;padding-left:12px;margin:0 0 8px 0;">
+<b>🔍 LCA LinkedIn Checker</b> · 🔒 private<br>
+<sub>linkedin hides h-1b sponsor history — overlays DOL filing stats, roles & wages on company pages.</sub>
+</p>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="middle">
-<td width="45%"><img src="./assets/project-lca.png" height="130" alt="lca"/></td>
-<td width="55%"><pre style="font-size:11px;margin:0;">
-DOL LCA → SQLite
-    → index
-    → Chrome ext
+<td width="42%"><img src="./assets/project-lca.png" height="128" alt="lca" style="border-radius:8px;"/></td>
+<td width="58%"><pre style="font-size:11px;margin:0;line-height:1.35;">
+DOL LCA (786k+)
+      │
+  SQLite + SQL
+      │
+employer index
+      │
+Chrome MV3 ext
 </pre></td>
 </tr>
 </table>
@@ -38,31 +51,44 @@ DOL LCA → SQLite
 </td>
 <td width="50%">
 
-[![AutoApply](https://img.shields.io/badge/🤖_AutoApply-f97316?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/AutoApply)
+<p style="border-left:4px solid #fdba74;padding-left:12px;margin:0 0 8px 0;">
+<b>🤖 <a href="https://github.com/nicole732470/AutoApply">AutoApply</a></b><br>
+<sub>applying at scale is copy-paste hell — scrapes listings, normalizes fields, tracks the workflow.</sub>
+</p>
 
-<pre style="font-size:11px;margin:4px 0 0 0;">
+<div align="right">
+<pre style="font-size:11px;margin:0;line-height:1.35;text-align:left;display:inline-block;">
 job listings
-     │
-scraper → normalize
-     │
+      │
+   scraper
+      │
+  normalize
+      │
 workflow / track
 </pre>
+</div>
 
 </td>
 </tr>
 <tr valign="top">
 <td width="50%">
 
-[![PriceTracker](https://img.shields.io/badge/🛒_PriceTracker-22c55e?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/smartshoppinglist)
+<p style="border-left:4px solid #86efac;padding-left:12px;margin:0 0 8px 0;">
+<b>🛒 <a href="https://github.com/nicole732470/smartshoppinglist">PriceTracker</a></b><br>
+<sub>paste a product link and watch prices over time — folders, alerts, and an AI nudge when you're stuck.</sub>
+</p>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="middle">
-<td width="45%"><img src="./assets/project-shopping.png" height="130" alt="shopping"/></td>
-<td width="55%"><pre style="font-size:11px;margin:0;">
-URL paste
-    → fetch price
-    → history
-    → dashboard
+<td width="42%"><img src="./assets/project-shopping.png" height="128" alt="shopping" style="border-radius:8px;"/></td>
+<td width="58%"><pre style="font-size:11px;margin:0;line-height:1.35;">
+product URL
+      │
+price fetcher
+      │
+price history
+      │
+  dashboard
 </pre></td>
 </tr>
 </table>
@@ -70,19 +96,28 @@ URL paste
 </td>
 <td width="50%">
 
-[![Voice Wine](https://img.shields.io/badge/🍷_Voice_Wine_Explorer-d946ef?style=flat-square&labelColor=0d1117)](https://github.com/nicole732470/Voice-Wine-Explorer)
+<p style="border-left:4px solid #e9a8f7;padding-left:12px;margin:0 0 8px 0;">
+<b>🍷 <a href="https://github.com/nicole732470/Voice-Wine-Explorer">Voice Wine Explorer</a></b><br>
+<sub>wine apps want twelve filters before dinner — talk mood, food, budget and get a ranked shortlist.</sub>
+</p>
 
-<pre style="font-size:11px;margin:4px 0 0 0;">
-voice in
-     │
-speech API
-     │
-rank → shortlist
+<div align="right">
+<pre style="font-size:11px;margin:0;line-height:1.35;text-align:left;display:inline-block;">
+ voice / text
+      │
+  speech API
+      │
+ranking engine
+      │
+   shortlist UI
 </pre>
+</div>
 
 </td>
 </tr>
 </table>
+
+<br/>
 
 <div align="center">
 
