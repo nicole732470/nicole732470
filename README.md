@@ -9,7 +9,7 @@
 
        (\__/)
        (•ㅅ•)  hi — engineering × product · chicago 🌆
-      /  づ   northwestern · Tencent · I ship small tools ♡
+            Northwestern · Tencent · I ship small tools ♡
 </pre>
 
 </div>
