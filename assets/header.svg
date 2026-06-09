@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="820" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14111a"/>
+      <stop offset="0.55" stop-color="#1a1420"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 40) rotate(90) scale(120 180)">
+      <stop stop-color="#ff6b4a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff6b4a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 150) rotate(90) scale(90 120)">
+      <stop stop-color="#7c6cff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="820" height="200" rx="16" fill="url(#bg)"/>
+  <rect width="820" height="200" rx="16" fill="url(#glow)"/>
+  <rect width="820" height="200" rx="16" fill="url(#glow2)"/>
+  <path d="M48 148 H772" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="48" cy="148" r="3" fill="#ff6b4a"/>
+  <text x="48" y="72" fill="#f4efe7" font-family="Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="-1">Nicole Li</text>
+  <text x="50" y="108" fill="#b7aa9a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="0.12em">NORTHWESTERN · CHICAGO · DATA × PRODUCT</text>
+  <text x="50" y="176" fill="#8e8274" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic">I like tools that feel obvious after you use them.</text>
+  <path d="M700 42 L748 42 L748 90" stroke="#ff6b4a" stroke-opacity="0.55" stroke-width="1.5"/>
+  <path d="M712 54 H736 M712 62 H732 M712 70 H728" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+</svg>
