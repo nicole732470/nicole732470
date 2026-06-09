@@ -1,0 +1,23 @@
+name: generate_spring_snake
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build Mar 2026+ contribution snake
+        run: python scripts/generate_spring_snake.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh spring contribution snake"
+          file_pattern: assets/spring-snake*.svg

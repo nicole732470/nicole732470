@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commit Catcher · Nicole</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #1b2738 0%, #0d1117 55%);
+      color: #e6edf3;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .wrap { text-align: center; padding: 24px; }
+    h1 { font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; }
+    p { color: #8b949e; margin: 0 0 16px; font-size: 0.85rem; }
+    canvas {
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      background: #010409;
+      box-shadow: 0 12px 40px rgba(0,0,0,.35);
+      touch-action: none;
+    }
+    .hud {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 12px;
+      font-size: 0.9rem;
+    }
+    .hud strong { color: #58a6ff; }
+    button {
+      margin-top: 14px;
+      padding: 10px 18px;
+      border: 1px solid #30363d;
+      border-radius: 999px;
+      background: #21262d;
+      color: #e6edf3;
+      cursor: pointer;
+      font: inherit;
+    }
+    button:hover { background: #30363d; }
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🎮 commit catcher</h1>
+    <p>catch ✨ features · dodge 🐛 bugs · 30 seconds</p>
+    <canvas id="game" width="360" height="420" aria-label="Commit Catcher game"></canvas>
+    <div class="hud">
+      <div>score <strong id="score">0</strong></div>
+      <div>time <strong id="time">30</strong></div>
+    </div>
+    <button id="restart" type="button">play again</button>
+    <p style="margin-top:18px"><a href="https://github.com/nicole732470">← back to profile</a></p>
+  </div>
+  <script>
+    const canvas = document.getElementById("game");
+    const ctx = canvas.getContext("2d");
+    const scoreEl = document.getElementById("score");
+    const timeEl = document.getElementById("time");
+    const restartBtn = document.getElementById("restart");
+
+    const W = canvas.width;
+    const H = canvas.height;
+    const player = { x: W / 2, y: H - 36, w: 52, h: 14, speed: 6 };
+    let items = [];
+    let score = 0;
+    let timeLeft = 30;
+    let playing = false;
+    let lastSpawn = 0;
+    let raf = 0;
+    let timer = 0;
+    const keys = new Set();
+
+    function reset() {
+      cancelAnimationFrame(raf);
+      clearInterval(timer);
+      items = [];
+      score = 0;
+      timeLeft = 30;
+      player.x = W / 2;
+      playing = true;
+      lastSpawn = 0;
+      scoreEl.textContent = "0";
+      timeEl.textContent = "30";
+      timer = setInterval(() => {
+        timeLeft -= 1;
+        timeEl.textContent = String(timeLeft);
+        if (timeLeft <= 0) endGame();
+      }, 1000);
+      loop(0);
+    }
+
+    function endGame() {
+      playing = false;
+      clearInterval(timer);
+      ctx.fillStyle = "rgba(1,4,9,.72)";
+      ctx.fillRect(0, 0, W, H);
+      ctx.fillStyle = "#e6edf3";
+      ctx.font = "bold 22px monospace";
+      ctx.textAlign = "center";
+      ctx.fillText(`score: ${score}`, W / 2, H / 2 - 8);
+      ctx.font = "14px monospace";
+      ctx.fillStyle = "#8b949e";
+      ctx.fillText(score >= 120 ? "ship it 🚀" : "one more round?", W / 2, H / 2 + 18);
+    }
+
+    function spawn(ts) {
+      if (ts - lastSpawn < 520) return;
+      lastSpawn = ts;
+      const good = Math.random() > 0.38;
+      items.push({
+        x: 24 + Math.random() * (W - 48),
+        y: -20,
+        r: 14,
+        vy: 2.2 + Math.random() * 2.4,
+        good,
+        emoji: good ? "✨" : "🐛",
+      });
+    }
+
+    function drawPlayer() {
+      const grd = ctx.createLinearGradient(player.x - 26, 0, player.x + 26, 0);
+      grd.addColorStop(0, "#58a6ff");
+      grd.addColorStop(1, "#3fb950");
+      ctx.fillStyle = grd;
+      ctx.beginPath();
+      ctx.roundRect(player.x - player.w / 2, player.y - player.h / 2, player.w, player.h, 8);
+      ctx.fill();
+      ctx.font = "16px serif";
+      ctx.textAlign = "center";
+      ctx.fillText("🐰", player.x, player.y - 16);
+    }
+
+    function loop(ts) {
+      if (!playing) return;
+      ctx.clearRect(0, 0, W, H);
+      ctx.strokeStyle = "#21262d";
+      for (let y = 0; y < H; y += 28) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(W, y);
+        ctx.stroke();
+      }
+
+      if (keys.has("ArrowLeft") || keys.has("a")) player.x -= player.speed;
+      if (keys.has("ArrowRight") || keys.has("d")) player.x += player.speed;
+      player.x = Math.max(player.w / 2, Math.min(W - player.w / 2, player.x));
+
+      spawn(ts);
+      items = items.filter((it) => {
+        it.y += it.vy;
+        ctx.font = "20px serif";
+        ctx.textAlign = "center";
+        ctx.fillText(it.emoji, it.x, it.y);
+        const hit =
+          Math.abs(it.x - player.x) < 24 &&
+          Math.abs(it.y - player.y) < 20;
+        if (hit) {
+          if (it.good) {
+            score += 10;
+            scoreEl.textContent = String(score);
+          } else {
+            score = Math.max(0, score - 15);
+            scoreEl.textContent = String(score);
+            ctx.fillStyle = "rgba(248,81,73,.25)";
+            ctx.fillRect(0, 0, W, H);
+          }
+          return false;
+        }
+        return it.y < H + 20;
+      });
+
+      drawPlayer();
+      raf = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener("keydown", (e) => {
+      if (["ArrowLeft", "ArrowRight", "a", "d"].includes(e.key)) {
+        e.preventDefault();
+        keys.add(e.key);
+      }
+    });
+    window.addEventListener("keyup", (e) => keys.delete(e.key));
+
+    let touchX = null;
+    canvas.addEventListener("pointerdown", (e) => {
+      canvas.setPointerCapture(e.pointerId);
+      touchX = e.offsetX;
+    });
+    canvas.addEventListener("pointermove", (e) => {
+      if (touchX == null) return;
+      player.x += (e.offsetX - touchX) * 0.35;
+      touchX = e.offsetX;
+      player.x = Math.max(player.w / 2, Math.min(W - player.w / 2, player.x));
+    });
+    canvas.addEventListener("pointerup", () => { touchX = null; });
+
+    restartBtn.addEventListener("click", reset);
+    reset();
+  </script>
+</body>
+</html>
