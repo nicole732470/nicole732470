@@ -1,28 +1,18 @@
-<div align="center">
+```text
+$ whoami
+  nicole li · she/her · chicago
 
-<img
-  src="https://terminal-identity-opal.vercel.app/api?name=nicole%20li&username=nicole732470&provider=obsidian&theme=matcha&motion=boot&bio=professional+cat+in+human+clothing+%F0%9F%90%B1%0Anorthwestern+%C2%B7+chicago+%C2%B7+data+%C3%97+product%0Achrome+extensions+%C2%B7+sql+pipelines+%C2%B7+rails+%26+js%0Astatus%3A+caffeinated+%26+job+hunting&width=920&showStats=on&v=1"
-  width="100%"
-  alt="terminal identity card"
-/>
+$ cat about.txt
+  northwestern · data × product
+  i build small tools that feel obvious after you use them
+  shipping: chrome extensions · sql pipelines · rails & js
+  into: product sense · h-1b data · side projects that ship
+  status: caffeinated · job hunting
 
-<br/>
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&duration=3800&pause=1100&color=7EC699&center=true&vCenter=true&width=920&lines=hi%2C+i%27m+nicole+li+%F0%9F%90%B1;mrow+~+%C2%B7+she%2Fher+%C2%B7+data+%C3%97+product;building+tools+that+feel+obvious+after+you+use+them;into%3A+product+sense+%C2%B7+h-1b+data+%C2%B7+side+projects+that+ship"
-  width="100%"
-  alt="typing intro"
-/>
-
-<br/>
-
-<img
-  src="https://gh-motion-card.vercel.app/api/github-motion?username=nicole732470&animation=spark&theme=nightowl&hide_total=true&hide_streaks=true&width=920&height=200"
-  width="100%"
-  alt="contribution spark animation"
-/>
-
-</div>
+$ ./cat_supervisor.sh
+  🐱 mrow ~ please stop pushing to main at 1am
+  → exit 1 (ignored)
+```
 
 <br/>
 
@@ -35,8 +25,4 @@
 
 <br/>
 
-<div align="center">
-
-🐈‍⬛ *thanks for visiting — you may pet the cat mentally* 🐾
-
-</div>
+*thanks for visiting — you may pet the cat mentally* 🐾
