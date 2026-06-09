@@ -20,9 +20,7 @@
 
 <br/>
 
-```text
-  · · ·  w o r k  · · ·
-```
+**projects** — selected things i've built · data tools, extensions & product experiments
 
 <table width="100%" border="0" cellspacing="16" cellpadding="0">
 <tr valign="top">
