@@ -1,49 +1,31 @@
-<img src="./assets/intro-header.svg" width="100%" alt="nicole li bunny header"/>
+```text
+================================================================================================
 
-<table width="100%" cellpadding="0" cellspacing="0">
-<tr>
-<td style="padding: 0 0 14px 0;">
+              /\_/\                          nicole li
+             ( ^.^ )                         data × product · chicago
+            /|  ω  |\                        ─────────────────────────────────────────
+           (_|     |_)                        $ whoami
+                                                nicole li · she/her · 🌆 chicago · 🎓 northwestern
 
-<table width="100%" cellpadding="0" cellspacing="0">
-<tr>
-<td style="background: linear-gradient(145deg, #ffc8dd, #cdb4db); border-radius: 26px; padding: 4px; box-shadow: 0 14px 32px rgba(255, 120, 160, 0.28);">
+              /\_/\                          $ cat about.txt
+             ( o.o )                            💻 i build small tools that feel obvious after you use them
+            /|  w  |\                           🚀 shipping: chrome extensions · sql pipelines · rails & js
+           (_|     |_)                           🎯 into: product sense · h-1b data · side projects that ship
+              | |                               ☕ status: caffeinated · job hunting
 
-<table width="100%" cellpadding="0" cellspacing="0">
-<tr>
-<td style="background: linear-gradient(180deg, #fff9fc 0%, #ffffff 55%, #fff5fa 100%); border-radius: 22px; padding: 22px 28px; box-shadow: inset 0 2px 0 #ffffff, inset 0 -6px 16px rgba(255, 190, 210, 0.18);">
+             /   \                           $ ./cat_supervisor.sh
+            |     |                              🐱 mrow ~ stop pushing to main at 1am
+           /|     |\                             → exit 1 (ignored)  🐾🐾🐾
+          (_|     |_)
+             | |
+            /   \
 
-<pre style="font-size:14px; line-height:1.6; margin:0; white-space:pre-wrap;">
-<span style="color:#ff6b9d;">$</span> whoami
-  <b>nicole li</b> · she/her · 🌆 chicago · 🎓 northwestern
-
-<span style="color:#ff6b9d;">$</span> cat about.txt
-  💻 data × product · i build small tools that feel obvious after you use them
-  🚀 shipping: chrome extensions · sql pipelines · rails &amp; js
-  🎯 into: product sense · h-1b data · side projects that ship
-  ☕ status: caffeinated · job hunting · probably refactoring something
-
-<span style="color:#ff6b9d;">$</span> ./bunny_supervisor.sh
-  🐰 hop ~ stop pushing to main at 1am
-  <span style="color:#ff6b9d;">→</span> exit 1 <span style="color:#b0899a;">(ignored)</span>  🥕🥕🥕
-</pre>
-
-</td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
-
-<img src="./assets/bunny-hop.gif" width="100%" alt="bunny hopping across the screen"/>
+================================================================================================
+```
 
 <br/>
 
-## 🐰 projects
+## 🐾 projects
 
 | | | |
 | :--- | :--- | :--- |
@@ -52,8 +34,4 @@
 
 <br/>
 
-<div align="center">
-
-🐇 *thanks for visiting — the bunny approves* 🥕
-
-</div>
+*thanks for visiting — you may pet the cat mentally* 🐈‍⬛
