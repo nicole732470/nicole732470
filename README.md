@@ -1,11 +1,3 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DB61A2&center=true&width=700&lines=nicole+li;data+%C3%97+product+%C2%B7+open+to+work" alt=""/>
-
-</div>
-
-<br/>
-
 ```text
 ================================================================================
   ✧ ˚  *  n i c o l e   l i  *  ˚ ✧
@@ -40,24 +32,33 @@
 └───────────────────────────────────────────────────────────────┘
 ```
 
-<img src="./assets/project-lca.png" width="100%" alt="LCA sponsor badge on LinkedIn company page"/>
+<table width="100%" border="0" cellspacing="0" cellpadding="8">
+<tr valign="middle">
+<td width="40%" align="center">
+<img src="./assets/project-lca.png" height="200" alt="LCA sponsor badge on LinkedIn"/>
+</td>
+<td width="60%">
 
-```text
-  DOL LCA filings (786k+ H-1B)
-           │
-           ▼
-  ┌─────────────────┐
-  │ SQLite + SQL    │  aggregate by FEIN · top roles · wages
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ employer index  │  slug match · overrides · fuzzy fallback
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ Chrome MV3 ext  │  overlay badge on linkedin company/job pages
-  └─────────────────┘
-```
+<pre>
+DOL LCA filings (786k+ H-1B)
+         │
+         ▼
+┌─────────────────┐
+│ SQLite + SQL    │
+└────────┬────────┘
+         ▼
+┌─────────────────┐
+│ employer index  │
+└────────┬────────┘
+         ▼
+┌─────────────────┐
+│ Chrome MV3 ext  │
+└─────────────────┘
+</pre>
+
+</td>
+</tr>
+</table>
 
 🔒 private repo — ask for demo
 
@@ -102,24 +103,33 @@
 └───────────────────────────────────────────────────────────────┘
 ```
 
-<img src="./assets/project-shopping.png" width="100%" alt="PriceTracker product dashboard"/>
+<table width="100%" border="0" cellspacing="0" cellpadding="8">
+<tr valign="middle">
+<td width="40%" align="center">
+<img src="./assets/project-shopping.png" height="200" alt="PriceTracker dashboard"/>
+</td>
+<td width="60%">
 
-```text
-  product URL paste
-           │
-           ▼
-  ┌─────────────────┐
-  │ price fetcher   │  supported retailer adapters
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ store + history │  snapshots · alerts · folders
-  └────────┬────────┘
-           ▼
-  ┌─────────────────┐
-  │ dashboard UI    │  watchlist · filters · ask AI
-  └─────────────────┘
-```
+<pre>
+product URL paste
+         │
+         ▼
+┌─────────────────┐
+│ price fetcher   │
+└────────┬────────┘
+         ▼
+┌─────────────────┐
+│ store + history │
+└────────┬────────┘
+         ▼
+┌─────────────────┐
+│ dashboard UI    │
+└─────────────────┘
+</pre>
+
+</td>
+</tr>
+</table>
 
 **[view repo →](https://github.com/nicole732470/smartshoppinglist)**
 
@@ -171,99 +181,6 @@ product     chrome extensions · full-stack prototypes · UX-first tools
 ![Chrome](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
 </div>
-
-<br/>
-
-<details>
-<summary><b>🕹️ friday night deploy</b> · click to play <sub>(markdown mini-game)</sub></summary>
-
-<br/>
-
-```text
- 11:47 PM · CI green · prod is watching
-```
-
-<br/>
-
-**pick your opening move:**
-
-<br/>
-
-<details>
-<summary><b>merge anyway</b></summary>
-
-<br/>
-
-The deploy turns green. You exhale. Then Slack lights up.
-
-<br/>
-
-<details>
-<summary>open the error log</summary>
-
-<br/>
-
-Off-by-one in a date parser. You patch it in eleven minutes.  
-**ending: legend status unlocked** — the team sends a gif.
-
-</details>
-
-<details>
-<summary>mute slack and go to bed</summary>
-
-<br/>
-
-At 3:14 AM your phone vibrates itself off the nightstand.  
-**ending: brave, but incorrect** — monday you buy everyone coffee.
-
-</details>
-
-</details>
-
-<details>
-<summary><b>leave it for monday</b></summary>
-
-<br/>
-
-You close the laptop. The apartment gets quiet.  
-**ending: peaceful** — future you writes a thank-you note in the PR.
-
-</details>
-
-<details>
-<summary><b>rewrite the whole PR "to make it cleaner"</b></summary>
-
-<br/>
-
-It is now 2:30 AM. Tests are red. You are emotionally attached to the refactor.
-
-<br/>
-
-<details>
-<summary>revert and merge the original</summary>
-
-<br/>
-
-**ending: wisdom arrives late** — but it arrives.
-
-</details>
-
-<details>
-<summary>keep pushing until green</summary>
-
-<br/>
-
-**ending: sunrise commit** — 47 files changed. you win? unclear.
-
-</details>
-
-</details>
-
-<br/>
-
-<sub>replay anytime · no javascript · github markdown only</sub>
-
-</details>
 
 <br/>
 
