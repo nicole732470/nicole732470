@@ -8,8 +8,8 @@
   ✧ ˚  n i c o l e   l i  ˚ ✧
 
        (\__/)
-       (•ㅅ•)  hi — data × product · chicago 🌆
-      /  づ   northwestern · open to work · i ship small tools ♡
+       (•ㅅ•)  hi — engineering × product · chicago 🌆
+      /  づ   northwestern · Tencent · I ship small tools ♡
 </pre>
 
 </div>
