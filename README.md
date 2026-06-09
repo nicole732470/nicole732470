@@ -1,45 +1,49 @@
-<h3 align="left">🐱 nicole li · <code>data × product</code> · chicago</h3>
+<img src="./assets/intro-header.svg" width="100%" alt="nicole li bunny header"/>
 
-<table width="100%">
+<table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td>
+<td style="padding: 0 0 14px 0;">
 
-<table>
+<table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td style="background-color:#fff8f3; border:2px solid #f4a261; border-radius:16px; padding:18px 22px;">
+<td style="background: linear-gradient(145deg, #ffc8dd, #cdb4db); border-radius: 26px; padding: 4px; box-shadow: 0 14px 32px rgba(255, 120, 160, 0.28);">
 
-<pre style="font-size:14px; line-height:1.55; margin:0;">
-<span style="color:#e76f51;">$</span> whoami
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="background: linear-gradient(180deg, #fff9fc 0%, #ffffff 55%, #fff5fa 100%); border-radius: 22px; padding: 22px 28px; box-shadow: inset 0 2px 0 #ffffff, inset 0 -6px 16px rgba(255, 190, 210, 0.18);">
+
+<pre style="font-size:14px; line-height:1.6; margin:0; white-space:pre-wrap;">
+<span style="color:#ff6b9d;">$</span> whoami
   <b>nicole li</b> · she/her · 🌆 chicago · 🎓 northwestern
 
-<span style="color:#e76f51;">$</span> cat about.txt
+<span style="color:#ff6b9d;">$</span> cat about.txt
   💻 data × product · i build small tools that feel obvious after you use them
   🚀 shipping: chrome extensions · sql pipelines · rails &amp; js
   🎯 into: product sense · h-1b data · side projects that ship
   ☕ status: caffeinated · job hunting · probably refactoring something
 
-<span style="color:#e76f51;">$</span> ./cat_supervisor.sh
-  🐱 mrow ~ stop pushing to main at 1am
-  <span style="color:#e76f51;">→</span> exit 1 <span style="color:#8b7355;">(ignored)</span>  🐾🐾🐾
+<span style="color:#ff6b9d;">$</span> ./bunny_supervisor.sh
+  🐰 hop ~ stop pushing to main at 1am
+  <span style="color:#ff6b9d;">→</span> exit 1 <span style="color:#b0899a;">(ignored)</span>  🥕🥕🥕
 </pre>
 
 </td>
 </tr>
 </table>
 
-<br/>
-
-<p align="center">
-  <img src="./assets/cat-walk.gif" width="520" alt="orange cat walking across the screen"/>
-</p>
+</td>
+</tr>
+</table>
 
 </td>
 </tr>
 </table>
 
+<img src="./assets/bunny-hop.gif" width="100%" alt="bunny hopping across the screen"/>
+
 <br/>
 
-## 🐾 projects
+## 🐰 projects
 
 | | | |
 | :--- | :--- | :--- |
@@ -50,6 +54,6 @@
 
 <div align="center">
 
-🐈‍⬛ *thanks for visiting — you may pet the cat mentally* 🐾
+🐇 *thanks for visiting — the bunny approves* 🥕
 
 </div>
