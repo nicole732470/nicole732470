@@ -34,8 +34,6 @@
 URL → fetch → history → dashboard
 </pre>
 
-<span style="font-size:12px;color:#656d76;font-family:ui-monospace,monospace;">javascript · react · node</span>
-
 </div>
 
 </td>
@@ -45,15 +43,13 @@ URL → fetch → history → dashboard
 
 <b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🔍 LCA LinkedIn Checker <span style="font-size:12px;font-weight:normal;color:#656d76;">🔒 private</span></b>
 
-<img src="./assets/project-lca.png" width="100%" alt="LCA" style="border-radius:6px;border:1px solid #d0d7de;margin-bottom:10px;"/>
+<img src="./assets/project-lca.png" height="120" alt="LCA" style="border-radius:6px;border:1px solid #d0d7de;margin-bottom:10px;"/>
 
 <span style="font-size:13px;color:#57606a;">h-1b sponsor signal on linkedin company pages.</span>
 
 <pre style="font-size:11px;line-height:1.4;color:#57606a;background:#f6f8fa;border:1px solid #d0d7de;border-radius:6px;padding:10px;margin:10px 0;">
 DOL LCA → SQLite → index → Chrome ext
 </pre>
-
-<span style="font-size:12px;color:#656d76;font-family:ui-monospace,monospace;">python · sqlite · chrome mv3</span>
 
 </div>
 
@@ -72,8 +68,6 @@ DOL LCA → SQLite → index → Chrome ext
 listings → scraper → normalize → track
 </pre>
 
-<span style="font-size:12px;color:#656d76;font-family:ui-monospace,monospace;">python · scraping</span>
-
 </div>
 
 </td>
@@ -88,8 +82,6 @@ listings → scraper → normalize → track
 <pre style="font-size:11px;line-height:1.4;color:#57606a;background:#f6f8fa;border:1px solid #d0d7de;border-radius:6px;padding:10px;margin:10px 0;">
 voice → speech API → rank → shortlist
 </pre>
-
-<span style="font-size:12px;color:#656d76;font-family:ui-monospace,monospace;">javascript · web speech api</span>
 
 </div>
 
