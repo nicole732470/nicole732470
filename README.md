@@ -25,7 +25,7 @@
 
 <div style="border:1px solid #d0d7de;border-radius:10px;background:#ffffff;padding:16px;">
 
-<b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🛒 <a href="https://github.com/nicole732470/smartshoppinglist" style="color:#24292f;text-decoration:none;">PriceTracker</a></b>
+<b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🛒 <a href="https://github.com/NU-CS-Software-Studio-Spring-26/project-smart-shopping-list" style="color:#24292f;text-decoration:none;">PriceTracker</a></b>
 
 <img src="./assets/project-shopping.png" width="100%" alt="PriceTracker" style="border-radius:6px;border:1px solid #d0d7de;margin-bottom:10px;"/>
 
