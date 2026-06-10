@@ -44,12 +44,18 @@ URL → fetch → history → dashboard
 
 <b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🔍 <a href="https://github.com/nicole732470/lca-linkedin-checker" style="color:#24292f;text-decoration:none;">LCA LinkedIn Checker</a></b>
 
-<table width="100%" border="0" cellspacing="4" cellpadding="0" style="margin-bottom:10px;">
+<div style="width:100%;max-width:100%;overflow:hidden;margin-bottom:10px;">
+<table width="100%" border="0" cellspacing="4" cellpadding="0" style="table-layout:fixed;width:100%;">
 <tr>
-<td width="50%" style="padding:0;"><img src="./assets/project-lca.png" width="100%" alt="LCA match found" style="border-radius:6px;border:1px solid #d0d7de;display:block;"/></td>
-<td width="50%" style="padding:0;"><img src="./assets/project-lca-not-found.png" width="100%" alt="LCA not found" style="border-radius:6px;border:1px solid #d0d7de;display:block;"/></td>
+<td width="50%" style="padding:0;overflow:hidden;vertical-align:middle;text-align:center;">
+<img src="./assets/project-lca.png" alt="LCA match found" style="display:block;width:100%;max-width:100%;height:220px;object-fit:contain;border-radius:6px;border:1px solid #d0d7de;margin:0 auto;"/>
+</td>
+<td width="50%" style="padding:0;overflow:hidden;vertical-align:middle;text-align:center;">
+<img src="./assets/project-lca-not-found.png" alt="LCA not found" style="display:block;width:100%;max-width:100%;height:220px;object-fit:contain;border-radius:6px;border:1px solid #d0d7de;margin:0 auto;"/>
+</td>
 </tr>
 </table>
+</div>
 
 <span style="font-size:13px;color:#57606a;">h-1b sponsor signal on linkedin company pages.</span>
 
