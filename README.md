@@ -42,9 +42,14 @@ URL → fetch → history → dashboard
 
 <div style="border:1px solid #d0d7de;border-radius:10px;background:#ffffff;padding:16px;">
 
-<b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🔍 LCA LinkedIn Checker <span style="font-size:12px;font-weight:normal;color:#656d76;">🔒 private</span></b>
+<b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🔍 <a href="https://github.com/nicole732470/lca-linkedin-checker" style="color:#24292f;text-decoration:none;">LCA LinkedIn Checker</a></b>
 
-<img src="./assets/project-lca.png" height="120" alt="LCA" style="border-radius:6px;border:1px solid #d0d7de;margin-bottom:10px;"/>
+<table width="100%" border="0" cellspacing="6" cellpadding="0" style="margin-bottom:10px;">
+<tr>
+<td width="50%"><img src="./assets/project-lca.png" height="120" alt="LCA match found" style="border-radius:6px;border:1px solid #d0d7de;width:100%;object-fit:contain;"/></td>
+<td width="50%"><img src="./assets/project-lca-not-found.png" height="120" alt="LCA not found" style="border-radius:6px;border:1px solid #d0d7de;width:100%;object-fit:contain;"/></td>
+</tr>
+</table>
 
 <span style="font-size:13px;color:#57606a;">h-1b sponsor signal on linkedin company pages.</span>
 
