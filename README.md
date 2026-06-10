@@ -44,10 +44,10 @@ URL → fetch → history → dashboard
 
 <b style="font-size:16px;color:#24292f;display:block;margin-bottom:8px;">🔍 <a href="https://github.com/nicole732470/lca-linkedin-checker" style="color:#24292f;text-decoration:none;">LCA LinkedIn Checker</a></b>
 
-<table width="100%" border="0" cellspacing="6" cellpadding="0" style="margin-bottom:10px;">
+<table width="100%" border="0" cellspacing="4" cellpadding="0" style="margin-bottom:10px;">
 <tr>
-<td width="50%"><img src="./assets/project-lca.png" height="120" alt="LCA match found" style="border-radius:6px;border:1px solid #d0d7de;width:100%;object-fit:contain;"/></td>
-<td width="50%"><img src="./assets/project-lca-not-found.png" height="120" alt="LCA not found" style="border-radius:6px;border:1px solid #d0d7de;width:100%;object-fit:contain;"/></td>
+<td width="50%" style="padding:0;"><img src="./assets/project-lca.png" width="100%" alt="LCA match found" style="border-radius:6px;border:1px solid #d0d7de;display:block;"/></td>
+<td width="50%" style="padding:0;"><img src="./assets/project-lca-not-found.png" width="100%" alt="LCA not found" style="border-radius:6px;border:1px solid #d0d7de;display:block;"/></td>
 </tr>
 </table>
 
