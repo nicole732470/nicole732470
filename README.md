@@ -8,10 +8,9 @@
   ✧ ˚  n i c o l e   l i  ˚ ✧
 
        (\__/)
-       (•ㅅ•)  engineering × product · tools that feel obvious after you use them
+       (•ㅅ•)  engineering × product · 
       /  づ   chicago 🌆 · northwestern · tencent · open to work
 
-  ♡ chrome extensions · sql · side projects that ship
 </pre>
 
 </div>
