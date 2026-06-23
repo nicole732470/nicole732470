@@ -12,10 +12,6 @@
       /  づ   chicago · northwestern · tencent · open to work
 </pre>
 
-<br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/nicole732470?style=for-the-badge&logo=github&color=24292f)](https://github.com/nicole732470)
-
 </div>
 
 <br/>
