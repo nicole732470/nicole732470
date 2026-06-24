@@ -1,111 +1,138 @@
-<div align="center" style="max-width:680px;margin:auto;padding:0 12px;">
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com/?lines=oh+hey+~+%F0%9F%91%8B;building+tools+for+job+search+%26+shopping;projects+below+%E2%86%93&font=Fira+Code&size=22&duration=2600&pause=1200&color=7C9CFF&center=true&width=400" alt=""/>
 
 <br/>
 
-<pre style="font-size:15px;line-height:1.7;text-align:center;margin:0;color:#6f675f;">
-  ✦ nicole li — builder × product thinker
+<pre style="font-size:15px;line-height:1.7;text-align:center;margin:0;color:#57606a;">
+  ✧ ˚  n i c o l e   l i  ˚ ✧
 
        (\__/)
-       (•ㅅ•)  chicago · northwestern · former tencent
-      /  づ   clarity-first tools, data rhythm, product craft
+       (•ㅅ•)  engineering × product
+      /  づ   chicago · northwestern · tencent · open to work
 </pre>
 
 </div>
 
 <br/>
 
-<div style="border:1px solid #e8dcc9;border-radius:24px;background:#fff8f0;padding:24px;margin:0 auto 28px;max-width:760px;box-sizing:border-box;">
+## projects
 
-<p style="margin:0 0 14px;font-size:18px;font-weight:700;color:#101832;">✨ Story</p>
+<br/>
 
-<p style="margin:0 0 12px;font-size:15px;line-height:1.8;color:#4c4a46;">
-A polished GitHub profile that echoes my portfolio’s warm editorial tone — thoughtful sections, soft paper-like cards, and clear project storytelling.
-</p>
+<div style="border:1px solid #d8dee4;border-radius:14px;background:#ffffff;padding:20px;margin-bottom:20px;max-width:100%;box-sizing:border-box;">
 
-<p style="margin:0;font-size:14px;color:#6f675f;line-height:1.7;">
-This profile highlights the product work I build for job search intelligence, behavioral tools, and data-driven experiences with human-centered clarity.
-</p>
+<b style="font-size:17px;color:#24292f;display:block;margin-bottom:10px;">🛒 <a href="https://github.com/nicole732470/smartshoppinglist" style="color:#24292f;text-decoration:none;">PriceTracker</a></b>
 
-</div>
+<a href="https://github.com/nicole732470/smartshoppinglist">
+<img src="./assets/project-pricetracker.png" width="100%" alt="PriceTracker" style="border-radius:10px;border:1px solid #d0d7de;margin-bottom:14px;display:block;max-width:100%;height:auto;"/>
+</a>
 
-<div style="display:grid;gap:20px;max-width:760px;margin:0 auto 28px;">
+<span style="font-size:14px;color:#24292f;line-height:1.6;display:block;margin-bottom:8px;">
+A full-stack price watching app — paste a product URL, track history across stores, and get notified when prices drop.
+</span>
 
-<div style="border:1px solid #e8dcc9;border-radius:22px;background:#fffef8;padding:22px;box-shadow:0 18px 40px rgba(36,28,18,0.06);">
-<p style="margin:0 0 12px;font-size:16px;font-weight:700;color:#101832;">📌 Snapshot</p>
-<ul style="margin:0;padding-left:20px;color:#4c4a46;line-height:1.85;font-size:14px;">
-<li><strong>Northwestern · Chicago, IL</strong></li>
-<li><strong>Former Tencent Product Manager</strong></li>
-<li>Building clarity-first tools for career intelligence, shopping, and AI workflows</li>
-<li>Strong sense for visual rhythm, data storytelling, and product detail</li>
-</ul>
-</div>
+<span style="font-size:13px;color:#57606a;line-height:1.65;display:block;margin-bottom:10px;">
+· Paste a retailer link → auto-fetch title, image, and current price<br/>
+· Dashboard with price history charts and target-price alerts<br/>
+· 16 supported retailers (Amazon, Best Buy, Walmart, Lululemon, Apple, and more)<br/>
+· Account settings, email notifications, Cucumber + RSpec test suite
+</span>
 
-<div style="border:1px solid #e8dcc9;border-radius:22px;background:#fffef8;padding:22px;box-shadow:0 18px 40px rgba(36,28,18,0.06);">
-<p style="margin:0 0 12px;font-size:16px;font-weight:700;color:#101832;">🎯 What I build</p>
-<p style="margin:0;color:#4c4a46;line-height:1.8;font-size:14px;">
-Career intelligence platforms, decision-support tools, and consumer-facing data experiences with an editorial and human-centered edge.
-</p>
-<ul style="margin:16px 0 0;padding-left:20px;color:#4c4a46;line-height:1.85;font-size:14px;">
-<li>Job signal products with resume and company fit insights</li>
-<li>Price monitoring systems with clear alerting and UX</li>
-<li>Activity rhythm visualizations for watching, reading, and travel</li>
-<li>Data-first design systems with calm, readable interfaces</li>
-</ul>
-</div>
+<span style="font-size:12px;color:#57606a;display:block;margin-bottom:10px;">
+<code>Ruby on Rails</code> · <code>PostgreSQL</code> · <code>Heroku</code> · <code>Active Storage</code>
+</span>
+
+<pre style="font-size:11px;line-height:1.5;color:#57606a;background:#f6f8fa;border:1px solid #d0d7de;border-radius:8px;padding:12px;margin:0;white-space:pre-wrap;word-wrap:break-word;">
+URL → fetch metadata → price history → dashboard + alerts
+</pre>
+
+<span style="font-size:13px;display:block;margin-top:12px;">
+<a href="https://github.com/nicole732470/smartshoppinglist" style="color:#0969da;">GitHub</a>
+&nbsp;·&nbsp;
+<a href="https://smart-shoppinglist-6ae31171e85c.herokuapp.com/" style="color:#0969da;">live app</a>
+</span>
 
 </div>
 
-<div style="max-width:760px;margin:0 auto 32px;display:grid;gap:24px;">
+<div style="border:1px solid #d8dee4;border-radius:14px;background:#ffffff;padding:20px;margin-bottom:20px;max-width:100%;box-sizing:border-box;">
 
-<div style="border:1px solid #e8dcc9;border-radius:24px;background:#ffffff;padding:24px;box-shadow:0 18px 40px rgba(36,28,18,0.06);">
-<p style="margin:0 0 14px;font-size:16px;font-weight:700;color:#101832;">🧵 Featured work</p>
+<b style="font-size:17px;color:#24292f;display:block;margin-bottom:10px;">🔍 <a href="https://github.com/nicole732470/joblens" style="color:#24292f;text-decoration:none;">JobLens</a></b>
 
-<div style="margin-bottom:20px;">
-<p style="margin:0 0 10px;font-size:15px;font-weight:600;color:#24292f;">🛒 <a href="https://github.com/nicole732470/smartshoppinglist" style="color:#24292f;text-decoration:none;">PriceTracker</a></p>
-<p style="margin:0 0 12px;font-size:14px;color:#4c4a46;line-height:1.75;">A price watching app that turns a product link into trackable price history, alerts, and purchase confidence.</p>
-<p style="margin:0;font-size:13px;color:#6f675f;line-height:1.7;">Ruby on Rails · PostgreSQL · Heroku · Active Storage</p>
-</div>
+<a href="https://job-lens-main.lovable.app">
+<img src="./assets/project-joblens.png" width="100%" alt="JobLens" style="border-radius:10px;border:1px solid #d0d7de;margin-bottom:14px;display:block;max-width:100%;height:auto;"/>
+</a>
 
-<div style="margin-bottom:20px;">
-<p style="margin:0 0 10px;font-size:15px;font-weight:600;color:#24292f;">🔍 <a href="https://github.com/nicole732470/joblens" style="color:#24292f;text-decoration:none;">JobLens</a></p>
-<p style="margin:0 0 12px;font-size:14px;color:#4c4a46;line-height:1.75;">Visa-aware job-fit assistant with evidence-backed fit scoring for postings and company history.</p>
-<p style="margin:0;font-size:13px;color:#6f675f;line-height:1.7;">FastAPI · LangGraph · PostgreSQL · AWS RDS · Chrome MV3 · React</p>
-</div>
+<span style="font-size:14px;color:#24292f;line-height:1.6;display:block;margin-bottom:8px;">
+Visa-aware job-fit assistant — paste a posting or use the Chrome extension on LinkedIn and get an evidence-backed Apply / Consider / Skip report.
+</span>
 
-<div>
-<p style="margin:0 0 10px;font-size:15px;font-weight:600;color:#24292f;">🚀 <a href="https://github.com/nicole732470/jobpush" style="color:#24292f;text-decoration:none;">JobPush</a></p>
-<p style="margin:0;font-size:14px;color:#4c4a46;line-height:1.75;">Company career-site discovery and monitoring pipeline powering the broader JobLens ecosystem.</p>
-<p style="margin:0;font-size:13px;color:#6f675f;line-height:1.7;">PostgreSQL · AWS RDS · SSM · Python · SQL migrations</p>
-</div>
+<span style="font-size:13px;color:#57606a;line-height:1.65;display:block;margin-bottom:10px;">
+· DOL H-1B / LCA employer history lookup on every company<br/>
+· Role, Resume, Location, and Company fit scoring with cited evidence<br/>
+· Preference and dealbreaker checks against your profile<br/>
+· Same API + report for web app and LinkedIn Chrome extension<br/>
+· FastAPI + LangGraph pipeline with deterministic guardrails
+</span>
 
-</div>
+<span style="font-size:12px;color:#57606a;display:block;margin-bottom:10px;">
+<code>FastAPI</code> · <code>LangGraph</code> · <code>PostgreSQL</code> · <code>AWS RDS</code> · <code>Chrome MV3</code> · <code>React</code>
+</span>
 
-</div>
+<pre style="font-size:11px;line-height:1.5;color:#57606a;background:#f6f8fa;border:1px solid #d0d7de;border-radius:8px;padding:12px;margin:0;white-space:pre-wrap;word-wrap:break-word;">
+JD → LCA lookup → parallel fit scores → guardrails → verdict
+</pre>
 
-<div style="max-width:760px;margin:0 auto 32px;display:grid;gap:20px;">
-
-<div style="border:1px solid #e8dcc9;border-radius:24px;background:#fff8f0;padding:22px;box-shadow:0 18px 40px rgba(36,28,18,0.05);">
-<p style="margin:0 0 12px;font-size:16px;font-weight:700;color:#101832;">📈 Rhythm</p>
-<div style="display:grid;gap:10px;font-size:14px;color:#4c4a46;line-height:1.75;">
-<span>🎬 <strong>Watching rhythm</strong> · 750+ movies watched</span>
-<span>📚 <strong>Reading rhythm</strong> · 500+ reading hours</span>
-<span>🌍 <strong>Travel rhythm</strong> · 10+ countries visited</span>
-<span>🐾 <strong>Personal</strong> · 1 cat</span>
-</div>
-</div>
-
-<div style="border:1px solid #e8dcc9;border-radius:24px;background:#ffffff;padding:22px;box-shadow:0 18px 40px rgba(36,28,18,0.05);">
-<p style="margin:0 0 12px;font-size:16px;font-weight:700;color:#101832;">📬 Connect</p>
-<p style="margin:0 0 8px;font-size:14px;color:#4c4a46;line-height:1.75;">
-<a href="https://github.com/nicole732470" style="color:#0969da;text-decoration:none;">GitHub</a> · <a href="https://www.linkedin.com/in/nicoleyuli/" style="color:#0969da;text-decoration:none;">LinkedIn</a> · <a href="mailto:nicole732470@gmail.com" style="color:#0969da;text-decoration:none;">Email</a>
-</p>
-<p style="margin:10px 0 0;font-size:13px;color:#6f675f;line-height:1.7;">The best products come from deeply understanding real human struggles.</p>
-</div>
+<span style="font-size:13px;display:block;margin-top:12px;">
+<a href="https://github.com/nicole732470/joblens" style="color:#0969da;">GitHub</a>
+&nbsp;·&nbsp;
+<a href="https://job-lens-main.lovable.app" style="color:#0969da;">live app</a>
+</span>
 
 </div>
 
-<div align="center" style="max-width:760px;margin:0 auto 20px;padding:18px 22px;border:1px solid #e8dcc9;border-radius:28px;background:#fff5eb;color:#6f675f;font-size:13px;line-height:1.7;">
-A GitHub profile styled to match the desktop-apply-github-profile aesthetic: warm paper tones, editorial spacing, and clear content hierarchy.
+<div style="border:1px solid #d8dee4;border-radius:14px;background:#ffffff;padding:20px;margin-bottom:20px;max-width:100%;box-sizing:border-box;">
+
+<b style="font-size:17px;color:#24292f;display:block;margin-bottom:10px;">🚀 <a href="https://github.com/nicole732470/jobpush" style="color:#24292f;text-decoration:none;">JobPush</a></b>
+
+<a href="https://github.com/nicole732470/jobpush">
+<img src="./assets/project-jobpush.png" width="100%" alt="JobPush" style="border-radius:10px;border:1px solid #d0d7de;margin-bottom:14px;display:block;max-width:100%;height:auto;"/>
+</a>
+
+<span style="font-size:14px;color:#24292f;line-height:1.6;display:block;margin-bottom:8px;">
+Prioritized company career-site discovery and official job-posting monitoring — the crawl layer behind the JobLens ecosystem.
+</span>
+
+<span style="font-size:13px;color:#57606a;line-height:1.65;display:block;margin-bottom:10px;">
+· Explainable priority scoring from DOL LCA data (target SOC, salary, Chicago metro, and more)<br/>
+· <code>company_targets</code> audit table refreshed from shared company + LCA sources<br/>
+· Career-site discovery pilots with adapter-specific crawl execution<br/>
+· Shares AWS RDS with JobLens; owns the <code>jobpush</code> PostgreSQL schema<br/>
+· Documented crawl policy, data model, and SSM-based deployment workflows
+</span>
+
+<span style="font-size:12px;color:#57606a;display:block;margin-bottom:10px;">
+<code>PostgreSQL</code> · <code>AWS RDS</code> · <code>SSM</code> · <code>Python</code> · <code>SQL migrations</code>
+</span>
+
+<pre style="font-size:11px;line-height:1.5;color:#57606a;background:#f6f8fa;border:1px solid #d0d7de;border-radius:8px;padding:12px;margin:0;white-space:pre-wrap;word-wrap:break-word;">
+LCA + company data → priority score → career-site crawl → job postings
+</pre>
+
+<span style="font-size:13px;display:block;margin-top:12px;">
+<a href="https://github.com/nicole732470/jobpush" style="color:#0969da;">GitHub</a>
+</span>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/nicole732470/nicole732470/output/github-contribution-grid-snake.svg" width="100%" alt="contribution snake" style="max-width:100%;height:auto;">
+</picture>
+
 </div>
